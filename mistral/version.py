@@ -24,7 +24,7 @@ class VersionInfo(object):
         return self.version_string()
 
     def version_string(self):
-        return "1.9.1"
+        return "1.9.2"
 
 version_info = VersionInfo('mistral')
 version_string = version_info.version_string
